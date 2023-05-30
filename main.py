@@ -83,7 +83,7 @@ def boundary_fraction(game_state):
         exit_time = group['seconds'].max()
         time_in_boundary = exit_time - entry_time
         print(
-            f"=> In round {round_num}, Player {player}, instance {instance}, spent {time_in_boundary} seconds within the boundary.")
+            f"=> In round {round_num}, {player}, instance {instance}, spent {time_in_boundary} seconds within the boundary.")
 
     # Count the number of rounds in which at least one player from Team2 enters the boundary
     rounds_with_boundary_entry = team2_actions_in_boundary['round_num'].nunique(
