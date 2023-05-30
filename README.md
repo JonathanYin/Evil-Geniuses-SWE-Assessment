@@ -8,6 +8,8 @@
 
 **main.py**: This file runs the boundary_analysis from process_game_state.py in order to determine the instances where Team2 enters the light blue boundary area on T-side, as well as the position_analysis from position_analysis.py to plot high frequency positions for Team2 on CT-side. It also outputs Bombsite B analysis that determines the average timer that Team2 on T side enters the B site with at least 2 rifles or SMGs.
 
+## Usage
+
 Running the command
 
 ```bash
@@ -65,6 +67,8 @@ High frequency points at X range: (-801.58, -787.96), Y range: (368.0, 384.0)
 ## Libraries
 
 Pandas, Shapely, Matplotlib, Json, Numpy, Seaborn
+
+## Questions
 
 ### Is entering via the light blue boundary a common strategy used by Team2 on T (terrorist) side?
 
